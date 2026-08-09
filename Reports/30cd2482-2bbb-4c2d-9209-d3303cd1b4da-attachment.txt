@@ -1,0 +1,15 @@
+================================
+locator_name: search_box_field_name
+locator_value: search
+locator_value type: <class 'str'>
+================================
+================================
+locator_name: search_button_xpath
+locator_value: //button[contains(@class,'btn btn-default')]
+locator_value type: <class 'str'>
+================================
+================================
+locator_name: no_product_message_xpath
+locator_value: //input[@id='button-search']/following-sibling::p
+locator_value type: <class 'str'>
+================================

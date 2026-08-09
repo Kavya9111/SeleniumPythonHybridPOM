@@ -1,0 +1,30 @@
+================================
+locator_name: my_account_drop_menu_xpath
+locator_value: //a[@title='My Account']
+locator_value type: <class 'str'>
+================================
+================================
+locator_name: login_option_link_text
+locator_value: Login
+locator_value type: <class 'str'>
+================================
+================================
+locator_name: email_address_field_id
+locator_value: input-email
+locator_value type: <class 'str'>
+================================
+================================
+locator_name: password_field_id
+locator_value: input-password
+locator_value type: <class 'str'>
+================================
+================================
+locator_name: login_button_xpath
+locator_value: //input[@value='Login']
+locator_value type: <class 'str'>
+================================
+================================
+locator_name: warning_message_xpath
+locator_value: //div[contains(@class,'alert-danger')]
+locator_value type: <class 'str'>
+================================

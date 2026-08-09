@@ -1,0 +1,60 @@
+================================
+locator_name: my_account_drop_menu_xpath
+locator_value: //a[@title='My Account']
+locator_value type: <class 'str'>
+================================
+================================
+locator_name: register_option_link_text
+locator_value: Register
+locator_value type: <class 'str'>
+================================
+================================
+locator_name: first_name_field_id
+locator_value: input-firstname
+locator_value type: <class 'str'>
+================================
+================================
+locator_name: last_name_field_id
+locator_value: input-lastname
+locator_value type: <class 'str'>
+================================
+================================
+locator_name: email_field_id
+locator_value: input-email
+locator_value type: <class 'str'>
+================================
+================================
+locator_name: telephone_filed_id
+locator_value: input-telephone
+locator_value type: <class 'str'>
+================================
+================================
+locator_name: password_field_id
+locator_value: input-password
+locator_value type: <class 'str'>
+================================
+================================
+locator_name: confirm_password_field_id
+locator_value: input-confirm
+locator_value type: <class 'str'>
+================================
+================================
+locator_name: yes_radio_button_xpath
+locator_value: //input[@name='newsletter' and @value='1']
+locator_value type: <class 'str'>
+================================
+================================
+locator_name: agree_field_name
+locator_value: agree
+locator_value type: <class 'str'>
+================================
+================================
+locator_name: continue_button_xpath
+locator_value: //input[@value='Continue']
+locator_value type: <class 'str'>
+================================
+================================
+locator_name: duplicate_email_warning_message_xpath
+locator_value: //div[contains(@class,'alert-danger') and (text()='Warning: E-Mail Address is already registered!')]
+locator_value type: <class 'str'>
+================================
