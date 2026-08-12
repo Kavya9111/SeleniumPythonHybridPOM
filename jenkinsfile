@@ -1,0 +1,27 @@
+pipeline{
+agent any
+stages
+{
+stage('Build')
+{
+steps{
+echo "Building the code....."
+bat "pip install -r requirements.txt"
+}
+}
+stage('Test')
+{
+steps{
+echo "Testing the code...."
+ bat "pytest --alluredir=./Reports"
+}
+}
+
+stage('Deploy')
+{
+steps{
+echo "Deploying the project......"
+}
+}
+}
+}
