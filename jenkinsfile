@@ -5,14 +5,14 @@ stages
 stage('Build')
 {
 steps{
-echo "Building the code....."
+echo "Running automation tests....."
+bat "python -m pip install -r requirements.txt"
 }
 }
 stage('Test')
 {
 steps{
 echo "Testing the code...."
-bat "python --version"
 bat "python -m pytest --alluredir=./Reports"
 }
 }
