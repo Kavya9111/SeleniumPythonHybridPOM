@@ -12,7 +12,8 @@ stage('Test')
 {
 steps{
 echo "Testing the code...."
- bat "pytest --alluredir=./Reports"
+bat "python --version"
+bat "python -m pytest --alluredir=./Reports"
 }
 }
 
