@@ -1,0 +1,7 @@
+pytest
+selenium
+webdriver-manager
+openpyxl
+mysql-connector-python
+allure-pytest
+pytest-xdist
